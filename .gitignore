@@ -1,0 +1,20 @@
+# Ignore all node_modules (frontend and backend)
+node_modules/
+**/node_modules/
+
+# Ignore sensitive environment files (database passwords and secrets)
+.env
+.env.*
+backend/.env
+
+# Build outputs
+dist/
+dist-ssr/
+build/
+
+# Logs and system files
+logs/
+*.log
+.DS_Store
+.vscode/
+
